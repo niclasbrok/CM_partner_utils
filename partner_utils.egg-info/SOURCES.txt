@@ -1,0 +1,7 @@
+setup.py
+partner_utils/__init__.py
+partner_utils.egg-info/PKG-INFO
+partner_utils.egg-info/SOURCES.txt
+partner_utils.egg-info/dependency_links.txt
+partner_utils.egg-info/not-zip-safe
+partner_utils.egg-info/top_level.txt

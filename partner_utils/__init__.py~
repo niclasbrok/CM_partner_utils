@@ -1,9 +1,11 @@
-
+import xlrd
+import math
 
 def ReadWriteXLSMatrix(fpath, sname, oname):
     workbook = xlrd.open_workbook(fpath)
     worksheet = workbook.sheet_by_name(sname)
     ofile = open('Temp/' + oname, 'w')
+    print('Calculating: ' + fpath[:(len(fpath1) - 4)])
     print('--Number of rows: ' + str(worksheet.nrows))
     print('--Number of cols: ' + str(worksheet.ncols))
     for row_id in range(0, worksheet.nrows):

@@ -1,0 +1,11 @@
+from setuptools import setup
+
+setup(name='partner_utils',
+      version='1.0',
+      description='Partner Data Utils.',
+      url='https://github.com/niclasbrok/CM_partner_utils',
+      author='Niclas Brok',
+      author_email='niclas.brok@clearmacro.com',
+      license='ClearMacro',
+      packages=['partner_utils'],
+      zip_safe=False)
